@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KT TUNAS SATRIA</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/png" href='teratai2.png'>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--NAVBAR-->
+
+    <header>
+        <div class="navbar">
+        <img src="logo.jpg" class="gambar">
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <a class="logo">Tunas Satria</a>
+        <ul class="navlist">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#program">Program & Kegiatan</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        </div>
+       </header>
+
+   <!--END NAVBAR-->
+
+   <!--Beranda Start-->
+
+    <div>
+    <h2 class="kreatif" id="beranda">Creative | Innovative</h2>
+   </div>
+   <div class="kontainer-text">
+            <div class="text">
+            <h3>Halo, Kawula Muda! 👋</h3>
+            <p> Perkenalkan, Kami adalah Organisasi Karang Taruna Tunas Satria dari RW 02 Kelurahan Grendeng, Kecamatan Purwokerto Utara.</p>
+            <p> Sebuah organisasi kepemudaan yang aktif dalam menciptakan berbagai kegiatan sosial, edukasi, dan hiburan. Sebagai wadah bagi generasi muda yang kreatif dan inovatif, kami berkomitmen untuk menghadirkan program-program yang berdampak positif bagi masyarakat serta membangun lingkungan yang lebih maju dan harmonis.</p>
+            </div>
+        <div>
+            <img src="taruna.jpg" alt="taruna" class="image">
+        </div>
+   </div>
+
+   <!--Beranda END-->
+
+   <!-- TENTANG KAMI START -->
+
+   <section class="tentang-kami" id="tentang">
+    <h1 class="text-tentang-kami">Tentang Kami</h1>
+    <div class="tab">
+        <button onclick="toggleContent1()" class="tab-button active">Visi dan Misi</button>
+        <button onclick="toggleContent2()" class="tab-button">Struktur Kepengurusan</button>
+    </div>
+    <!---->
+
+    <!--Visi dan Misi START-->
+
+    <div class="tab-content active" id="visi">
+        <ul>
+            <h2 class="visi-text">Visi</h2>
+            <li class="visi-isi">Menjadi organisasi kepemudaan yang aktif, inovatif, dan bermanfaat bagi masyarakat melalui berbagai kegiatan sosial, edukasi, dan pengembangan kreativitas.</li>
+        </ul>
+        <ul>
+            <h2 class="misi">Misi</h2>
+            <li class="misi-isi">Meningkatkan kepedulian sosial melalui kegiatan bakti sosial dan kemanusiaan.</li>
+            <li class="misi-isi">Memberdayakan pemuda dalam bidang pendidikan, keterampilan, dan kewirausahaan.</li>
+            <li class="misi-isi">Mengembangkan kreativitas dan inovasi melalui kegiatan seni, olahraga, dan budaya.</li>
+            <li class="misi-isi">Menjalin kemitraan dengan pemerintah dan pihak terkait dalam pembangunan desa/kelurahan.</li>
+        </ul>
+    </div>
+   </section>
+
+   <!-- VISI MISI END -->
+
+<!-- Struktur Organisasi START -->
+
+   <section class="struktur-organisasi" id="pengurus" style="display: none;">
+        <h1>Struktur Organisasi Karang Taruna RW 02</h1>
+        <div class="container">
+            <div class="card ketua"><h2>Pembina Umum</h2><p>Budi Setiawan</p></div>
+            <div class="card wakil-ketua"><h2>Ketua</h2><p>Rizal Hervi Saputra</p></div>
+            <div class="card sekretaris"><h2>Wakil Ketua</h2><p>Rifki Ramadhan</p></div>
+            <div class="card sekretaris"><h2>Sekretaris 1</h2><p>Melani Dwi Prastianingsih</p></div>
+            <div class="card bendahara"><h2>Sekretaris 2</h2><p>Happy Cahaya Chesilia Putri</p></div>
+            <div class="card bendahara"><h2>Bendahara 1</h2><p>Salma Ariesta Wijaya</p></div>
+            <div class="card koordinator"><h2>Bendahara 2</h2><p>Maharani Febri Nur Aidha</p></div>
+            <div class="card koordinator"><h2>Koordinator Humas</h2><p>Daiva Yudhistira</p></div>
+            <div class="card koordinator"><h2>Koordinator Olahraga</h2><p>Aji Dwi Sanusi</p></div>
+            <div class="card koordinator"><h2>Koordinator Ekonomi dan Kewirausahaan</h2><p>Adinda Ailsa Putri</p></div>
+            <div class="card koordinator"><h2>Koordinator Media Komunikasi</h2><p>Muhammad Khafidz Khoiruddaroin</p></div>
+            <div class="card koordinator"><h2>Koordinator Seni dan Budaya</h2><p>Livia Oki Pramutia</p></div>
+            <div class="card koordinator"><h2>Koordinator Perlengkapan</h2><p>Dani Bagus Dwianto</p></div>
+            <!-- Anggota -->
+            <div class="card anggota"><h2>Humas</h2><p>Lutfi Nurzani</p></div>
+            <div class="card anggota"><h2>Humas</h2><p>Alanbiya Meyldiyawan Pratama</p></div>
+            <div class="card anggota"><h2>Humas</h2><p>Saskia Ramadhani</p></div>
+            <div class="card anggota"><h2>Humas</h2><p>Sabrina Khoerunisa</p></div>
+            <div class="card anggota"><h2>Olahraga</h2><p>Muhammad Zacky Musyafa</p></div>
+            <div class="card anggota"><h2>Olahraga</h2><p>Emillia Putri</p></div>
+            <div class="card anggota"><h2>Ekonomi dan Kewirausahaan</h2><p>Shintia Fitria Ningrum</p></div>
+            <div class="card anggota"><h2>Ekonomi dan Kewirausahaan</h2><p>Aiskha Nurrahma</p></div>
+            <div class="card anggota"><h2>Ekonomi dan Kewirausahaan</h2><p>Cantika Sindy Abdillah</p></div>
+            <div class="card anggota"><h2>Media Komunikasi</h2><p>Latif Arifin</p></div>
+            <div class="card anggota"><h2>Media Komunikasi</h2><p>Ervi Patna Rachmawati</p></div>
+            <div class="card anggota"><h2>Media Komunikasi</h2><p>Febbyana Laura Dewi</p></div>
+            <div class="card anggota"><h2>Media Komunikasi</h2><p>Elza Three Ramadhan Saputra</p></div>
+            <div class="card anggota"><h2>Seni dan Budaya</h2><p>Tria Wahyu Aprianti</p></div>
+            <div class="card anggota"><h2>Seni dan Budaya</h2><p>Nita Juliardi</p></div>
+            <div class="card anggota"><h2>Seni dan Budaya</h2><p>Apri Ika Fania</p></div>
+            <div class="card anggota"><h2>Perlengkapan</h2><p>Fadil Baskoro</p></div>
+            <div class="card anggota"><h2>Perlengkapan</h2><p>Angga Bayu Setiawan</p></div>
+            <div class="card anggota"><h2>Perlengkapan</h2><p>Oktaviani Ika Nur Rohmah</p></div>
+            <div class="card anggota"><h2>Perlengkapan</h2><p>Zahra Aurelia Salsabila</p></div>
+            <div class="card anggota"><h2>Perlengkapan</h2><p>Azka Putra Wijaya</p></div>
+
+        </div>
+    </section>
+
+    <!-- STRUKUTUR ORGANISASI END -->
+
+    <!-- TENTANG KAMI END -->
+
+    <!-- PROGRAM KEGIATAN START -->
+     <section class="program-kegiatan" id="program">
+        <h1 class="text-program-kegiatan">Program & Kegiatan</h1>
+        <h2 class="manyfest">Manyfest Art Of Tunas Satria</h2>
+        <div class="text-manyfest">
+            <p>Manyfest Art of Tunas Satria adalah acara tahunan yang diselenggarakan oleh pemuda Karang Taruna RW 02 Grendeng. Acara ini bertujuan untuk menampilkan kreativitas dan bakat generasi muda dalam berbagai bidang seni, seperti musik, tari, teater, dan seni rupa. Selain sebagai ajang unjuk bakat, Manyfest Art of Tunas Satria juga menjadi wadah bagi komunitas lokal untuk berkumpul, berkolaborasi, dan mempererat kebersamaan.</p>
+        </div>
+        <div class="gambar-container">
+            <div class="gambar-item"><img src="image1.JPG" alt="Gambar 1"></div>
+            <div class="gambar-item"><img src='image2.JPG' alt="Gambar 2"></div>
+            <div class="gambar-item"><img src="image3.JPG" alt="Gambar 3"></div>
+            <div class="gambar-item"><img src="image4.JPG" alt="Gambar 4"></div>
+            <div class="gambar-item"><img src="image5.JPG" alt="Gambar 5"></div>
+            <div class="gambar-item"><img src="image6.JPG" alt="Gambar 6"></div>
+            <div class="gambar-item"><img src="image7.JPG" alt="Gambar 7"></div>
+            <div class="gambar-item"><img src="image8.JPG" alt="Gambar 8"></div>
+            <div class="gambar-item"><img src="image9.JPG" alt="Gambar 9"></div>
+            <div class="gambar-item"><img src="image10.jpeg" alt="Gambar 10"></div>
+        </div>
+     </section>
+     <!-- PROGRAM KEGIATAN END -->
+
+      <!-- FOOTER START -->
+     <footer class="footer" id="kontak">
+        <div>
+            <a href="https://www.instagram.com/tunassatria.02/" target="_blank" class="footer-icon">
+                <img src="instagram.png" alt="instagram">
+            </a>
+            <a href="mailto:tunassatria2426@gmail.com" class="footer-icon">
+                <img src="gmail.png" alt="Gmail">
+            </a>
+        </div>
+        <div class="address">
+            Jl Kenanga RW.02, Lokasari, Grendeng, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah 53122
+        </div>
+        <div class="copyright">
+            Copyright © <span>KT Tunas Satria 02</span> 2025
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+</html>
